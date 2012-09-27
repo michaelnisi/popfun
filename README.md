@@ -10,7 +10,7 @@ The popfun node module pops and returns the last item of a given array, if its t
       var args = Array.prototype.slice.call(arguments)
         , callback = popfun(args)
       
-      if (callback) callback(null, args.join(' ')])
+      if (callback) callback(null, args.join(' '))
     }
     
     echo('hey', 'you', function (err, msg) {
