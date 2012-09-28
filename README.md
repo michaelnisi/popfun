@@ -1,5 +1,7 @@
 # popfun - pop last item of array, if it is a function
 
+## Description
+
 The popfun node module pops and returns the last item of a given array, if its type is 'function'; for example, the callback in an arguments array.
 
 ## Usage
