@@ -1,4 +1,4 @@
-# popfun - pop last item of array, if it is a function
+# popfun - remove last element from array, if it is a function
 
 [![Build Status](https://secure.travis-ci.org/michaelnisi/popfun.png)](http://travis-ci.org/michaelnisi/popfun)
 
