@@ -9,6 +9,9 @@
   "scripts": {
     "test": "tap test/*.js"
   },
+  "devDependencies": {
+    "tap": "0.3.x"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/michaelnisi/popfun.git"
@@ -18,6 +21,10 @@
     "callback",
     "array"
   ],
-  "author": "Michael Nisi",
+  "author": {
+    "name": "Michael Nisi",
+    "email": "michael.nisi@gmail.com",
+    "url": "http://michaelnisi.com"
+  },
   "license": "MIT"
 }
