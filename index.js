@@ -1,4 +1,4 @@
-// popfun - pop last item of array, if it is a function
+// popfun - pop array, if last element is function
 
 module.exports = popfun
 
