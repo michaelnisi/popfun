@@ -1,6 +1,6 @@
 {
   "name": "popfun",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "pop last item of array, if it is function",
   "main": "index.js",
   "directories": {
