@@ -1,4 +1,4 @@
-# popfun - pop array, if last element is function
+# popfun - pop fun off
 
 [![Build Status](https://secure.travis-ci.org/michaelnisi/popfun.png)](http://travis-ci.org/michaelnisi/popfun) [![devDependency Status](https://david-dm.org/michaelnisi/popfun/dev-status.png)](https://david-dm.org/michaelnisi/popfun#info=devDependencies)
 
