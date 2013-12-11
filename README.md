@@ -1,8 +1,8 @@
 # popfun - pop fun off
 
-[![Build Status](https://secure.travis-ci.org/michaelnisi/popfun.png)](http://travis-ci.org/michaelnisi/popfun) [![devDependency Status](https://david-dm.org/michaelnisi/popfun/dev-status.png)](https://david-dm.org/michaelnisi/popfun#info=devDependencies)
+The popfun [Node.js](http://nodejs.org/) module removes the last element from an array if it is a function and returns it. This can be handy to fetch the callback from an arguments array (`[err, a1, a2, an, cb]`). 
 
-The popfun node module removes the last element from an array and returns that value to the caller, if the element is of type 'function'; for example, the callback in an arguments array.
+[![Build Status](https://secure.travis-ci.org/michaelnisi/popfun.png)](http://travis-ci.org/michaelnisi/popfun) [![devDependency Status](https://david-dm.org/michaelnisi/popfun/dev-status.png)](https://david-dm.org/michaelnisi/popfun#info=devDependencies)
 
 ## Usage
 ```js
@@ -25,7 +25,7 @@ echo('hey', 'you', function (err, msg) {
 
 - `args` Object to pop if last element is of type 'function'
 
-Returns function or null.
+This function can take any type—if it receives an array, it pops the last element off it and returns the element, else it returns null.
 
 ## Installation
 
