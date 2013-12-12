@@ -2,7 +2,7 @@
 
 The popfun [Node.js](http://nodejs.org/) module removes the last element from an array if it is a function and returns it. This can be handy to fetch the callback from an arguments array (`[err, a1, a2, an, cb]`). 
 
-[![Build Status](https://secure.travis-ci.org/michaelnisi/popfun.png)](http://travis-ci.org/michaelnisi/popfun) [![devDependency Status](https://david-dm.org/michaelnisi/popfun/dev-status.png)](https://david-dm.org/michaelnisi/popfun#info=devDependencies)
+[![Build Status](https://secure.travis-ci.org/michaelnisi/popfun.png)](http://travis-ci.org/michaelnisi/popfun) [![David DM](https://david-dm.org/michaelnisi/popfun.png)](https://david-dm.org/michaelnisi/popfun)
 
 ## Usage
 ```js
