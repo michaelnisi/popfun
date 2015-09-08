@@ -1,6 +1,6 @@
 {
   "name": "popfun",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "pop array, if last element is function",
   "main": "index.js",
   "directories": {
@@ -10,15 +10,14 @@
     "test": "tap test/*.js"
   },
   "devDependencies": {
-    "tap": "0.4.x"
+    "tap": "^1.4.0"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/michaelnisi/popfun.git"
   },
   "engines": {
-    "node": "0.11.x"
-  , "node": "0.10.x"
+    "node": ">0.10"
   },
   "keywords": [
     "pop",

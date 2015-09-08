@@ -1,6 +1,7 @@
 var test = require('tap').test
-  , popfun = require('../index.js')
-  , callback = function () {}
+var popfun = require('../index.js')
+
+var callback = function () {}
 
 test('argument', function (t) {
   t.is(popfun(), null, 'should be null')
@@ -24,6 +25,6 @@ test('single', function (t) {
 test('multiple', function (t) {
   var args = [true, 1, '', {}, [], function () {}, callback]
   t.is(popfun(args), callback, 'should be callback')
-  t.is(args.length, 6,  'should be popped')
+  t.is(args.length, 6, 'should be popped')
   t.end()
 })
